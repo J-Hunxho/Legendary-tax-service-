@@ -57,7 +57,7 @@ const SuccessStories: React.FC = () => {
   }, []);
 
   return (
-    <section id="success" className="py-32 px-6 md:px-12 bg-[#050505] relative overflow-hidden" ref={sectionRef}>
+    <section id="success" className="py-32 px-6 md:px-12 bg-[#0B1E6D] relative overflow-hidden" ref={sectionRef}>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-24 text-center">
           <span className="text-[#D4AF37] tracking-[0.6em] text-xs font-black uppercase mb-6 block opacity-80">Gold Case Files</span>
@@ -65,6 +65,7 @@ const SuccessStories: React.FC = () => {
             Real families. <br /> 
             <span className="text-[#D4AF37]">Legendary Results.</span>
           </h2>
+          <div className="mx-auto mt-6 h-1 w-16 bg-[#D91E2E] rounded-full shadow-[0_0_16px_rgba(217,30,46,0.5)]"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -74,6 +75,7 @@ const SuccessStories: React.FC = () => {
               className="success-card bg-white/5 border border-white/5 p-12 rounded-[2.5rem] hover:border-[#D4AF37]/30 transition-all duration-700 group relative overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.5)]"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#D4AF37]/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl group-hover:bg-[#D4AF37]/10 transition-colors"></div>
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#D91E2E]/10 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl"></div>
               
               <div className="flex justify-between items-start mb-12">
                 <div className="p-3 rounded-2xl bg-[#D4AF37]/10 text-[#D4AF37] group-hover:scale-110 transition-transform">
