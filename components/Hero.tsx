@@ -32,19 +32,20 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative min-h-screen flex items-center pt-24 overflow-hidden bg-[#050505]">
+    <section ref={containerRef} className="relative min-h-screen flex items-center pt-24 overflow-hidden bg-[#0B1E6D]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center z-10">
         <div ref={contentRef} className="text-center lg:text-left">
           <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#D4AF37]/10 border border-[#D4AF37]/30 text-[#D4AF37] text-[10px] font-black tracking-[0.2em] mb-8 uppercase">
             <span className="w-2 h-2 rounded-full bg-[#D4AF37] shadow-[0_0_8px_#D4AF37] animate-pulse"></span>
-            The Gold Standard in Personal Tax
+            Legendary Tax Service · Bigger Refunds
           </div>
           <h1 className="text-6xl md:text-8xl font-serif text-white leading-[0.95] mb-8 tracking-tighter">
             Keep More. <br />
             <span className="text-[#D4AF37] italic">Stress Less.</span>
           </h1>
+          <div className="mx-auto lg:mx-0 mb-8 h-1 w-16 bg-[#D91E2E] rounded-full shadow-[0_0_18px_rgba(217,30,46,0.6)]"></div>
           <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
-            Luxury-tier tax preparation for regular folks. We don't just file your forms; we protect your hard-earned wealth with legendary precision.
+            Luxury-tier tax preparation for regular folks. File in office or virtually from home, and keep your refund protected with legendary precision.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center">
             <button 
@@ -76,7 +77,11 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
               alt="Luxury Wealth Visualization" 
               className="object-cover w-full h-full opacity-60 grayscale"
             />
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#050505] via-transparent to-[#D4AF37]/5"></div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#08164F] via-transparent to-[#D4AF37]/5"></div>
+            <div className="absolute top-8 left-8 flex items-center gap-3 bg-[#08164F]/70 border border-[#D4AF37]/30 rounded-full px-4 py-2">
+              <img src="/legendary-logo.svg" alt="Legendary Tax Service shield" className="w-8 h-8" />
+              <span className="text-[10px] tracking-[0.3em] text-[#D4AF37] font-black uppercase">Legendary</span>
+            </div>
             <div className="absolute top-12 right-12 w-32 h-32 border-t-2 border-r-2 border-[#D4AF37]/40 rounded-tr-3xl"></div>
             <div className="absolute bottom-12 left-12 w-32 h-32 border-b-2 border-l-2 border-[#D4AF37]/40 rounded-bl-3xl"></div>
           </div>
