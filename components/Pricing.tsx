@@ -68,8 +68,10 @@ const Pricing: React.FC = () => {
               
               <div className="mb-10 text-center">
                 <h3 className="text-2xl font-serif mb-4 text-white group-hover:text-[#D4AF37] transition-colors">{tier.name}</h3>
-                <div className="text-5xl font-black mb-4 text-white tracking-tighter">{tier.price}</div>
                 <p className="text-sm text-gray-500 font-light leading-relaxed">{tier.description}</p>
+                <div className="mt-6 inline-flex items-center gap-3 rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/10 px-5 py-2 text-[10px] font-black tracking-[0.3em] uppercase text-[#D4AF37]">
+                  Contact us for availability & pricing
+                </div>
               </div>
 
               <div className="flex-1">

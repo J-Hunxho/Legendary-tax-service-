@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
+import LegendaryPromos from './components/LegendaryPromos';
 import SuccessStories from './components/SuccessStories';
+import IrsAgentGuide from './components/IrsAgentGuide';
 import Pricing from './components/Pricing';
 import IntakeForm from './components/IntakeForm';
 import Footer from './components/Footer';
@@ -21,6 +23,7 @@ const App: React.FC = () => {
       <main className="relative z-10">
         <Hero onCtaClick={() => setIsIntakeOpen(true)} />
         <Stats />
+        <LegendaryPromos />
         
         <section id="services" className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -67,6 +70,7 @@ const App: React.FC = () => {
         </section>
 
         <SuccessStories />
+        <IrsAgentGuide />
         
         <Pricing />
       </main>
