@@ -43,7 +43,7 @@ const tiers: PricingTier[] = [
 
 const Pricing: React.FC = () => {
   return (
-    <section id="pricing" className="py-32 px-6 md:px-12 bg-[#050505] relative">
+    <section id="pricing" className="py-32 px-6 md:px-12 bg-[#0B1E6D] relative">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-24">
           <h2 className="text-4xl md:text-7xl font-serif mb-8 text-white leading-tight">Investment in <span className="text-[#D4AF37]">Wealth.</span></h2>

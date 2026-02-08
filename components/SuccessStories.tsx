@@ -57,7 +57,7 @@ const SuccessStories: React.FC = () => {
   }, []);
 
   return (
-    <section id="success" className="py-32 px-6 md:px-12 bg-[#050505] relative overflow-hidden" ref={sectionRef}>
+    <section id="success" className="py-32 px-6 md:px-12 bg-[#0B1E6D] relative overflow-hidden" ref={sectionRef}>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-24 text-center">
           <span className="text-[#D4AF37] tracking-[0.6em] text-xs font-black uppercase mb-6 block opacity-80">Gold Case Files</span>

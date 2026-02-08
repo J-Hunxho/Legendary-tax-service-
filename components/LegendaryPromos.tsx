@@ -38,7 +38,7 @@ const LegendaryPromos: React.FC = () => {
   ];
 
   return (
-    <section id="promos" className="py-28 px-6 md:px-12 bg-[#050505] relative">
+    <section id="promos" className="py-28 px-6 md:px-12 bg-[#0B1E6D] relative">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-20">
           <span className="text-[#D4AF37] tracking-[0.5em] text-xs font-black uppercase mb-4 block opacity-80">Legendary Updates</span>

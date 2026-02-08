@@ -32,7 +32,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative min-h-screen flex items-center pt-24 overflow-hidden bg-[#050505]">
+    <section ref={containerRef} className="relative min-h-screen flex items-center pt-24 overflow-hidden bg-[#0B1E6D]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center z-10">
         <div ref={contentRef} className="text-center lg:text-left">
           <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#D4AF37]/10 border border-[#D4AF37]/30 text-[#D4AF37] text-[10px] font-black tracking-[0.2em] mb-8 uppercase">
@@ -76,8 +76,8 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
               alt="Luxury Wealth Visualization" 
               className="object-cover w-full h-full opacity-60 grayscale"
             />
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#050505] via-transparent to-[#D4AF37]/5"></div>
-            <div className="absolute top-8 left-8 flex items-center gap-3 bg-[#050505]/70 border border-[#D4AF37]/30 rounded-full px-4 py-2">
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#08164F] via-transparent to-[#D4AF37]/5"></div>
+            <div className="absolute top-8 left-8 flex items-center gap-3 bg-[#08164F]/70 border border-[#D4AF37]/30 rounded-full px-4 py-2">
               <img src="/legendary-logo.svg" alt="Legendary Tax Service shield" className="w-8 h-8" />
               <span className="text-[10px] tracking-[0.3em] text-[#D4AF37] font-black uppercase">Legendary</span>
             </div>

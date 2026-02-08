@@ -15,7 +15,7 @@ const App: React.FC = () => {
   const [isIntakeOpen, setIsIntakeOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#050505] selection:bg-[#D4AF37] selection:text-black">
+    <div className="min-h-screen bg-[#0B1E6D] selection:bg-[#D4AF37] selection:text-black">
       <ParticleBackground />
       
       <Header onContactClick={() => setIsIntakeOpen(true)} />
@@ -60,7 +60,7 @@ const App: React.FC = () => {
                 alt="Luxury Wealth Management" 
                 className="object-cover w-full h-full opacity-40 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-80"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#08164F] via-transparent to-transparent opacity-80"></div>
               <div className="absolute bottom-8 left-8 right-8">
                 <div className="text-xs font-bold tracking-[0.4em] text-[#D4AF37] uppercase mb-2">Our Vision</div>
                 <div className="text-xl font-serif text-white">Transforming your tax season from a burden into a strategic asset.</div>

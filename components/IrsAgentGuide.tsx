@@ -13,7 +13,7 @@ const steps = [
 
 const IrsAgentGuide: React.FC = () => {
   return (
-    <section id="irs" className="py-28 px-6 md:px-12 bg-[#020202] relative overflow-hidden">
+    <section id="irs" className="py-28 px-6 md:px-12 bg-[#0A1A59] relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-16 items-center">
         <div>
           <span className="text-[#D4AF37] tracking-[0.5em] text-xs font-black uppercase mb-4 block opacity-80">Support Line</span>

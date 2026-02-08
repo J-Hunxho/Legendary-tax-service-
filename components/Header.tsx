@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-[60] transition-all duration-500 px-6 md:px-12 py-6 ${
-      isScrolled ? 'bg-[#050505]/95 backdrop-blur-md border-b border-[#D4AF37]/10 py-4 shadow-xl' : 'bg-transparent'
+      isScrolled ? 'bg-[#08164F]/95 backdrop-blur-md border-b border-[#D4AF37]/10 py-4 shadow-xl' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center gap-4 group cursor-pointer">
