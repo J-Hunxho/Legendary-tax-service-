@@ -43,6 +43,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
             Keep More. <br />
             <span className="text-[#D4AF37] italic">Stress Less.</span>
           </h1>
+          <div className="mx-auto lg:mx-0 mb-8 h-1 w-16 bg-[#D91E2E] rounded-full shadow-[0_0_18px_rgba(217,30,46,0.6)]"></div>
           <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
             Luxury-tier tax preparation for regular folks. File in office or virtually from home, and keep your refund protected with legendary precision.
           </p>

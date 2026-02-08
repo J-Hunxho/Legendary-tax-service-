@@ -45,6 +45,7 @@ const LegendaryPromos: React.FC = () => {
           <h2 className="text-4xl md:text-6xl font-serif text-white leading-tight">
             Bigger refunds. <span className="text-[#D4AF37]">Legendary service.</span>
           </h2>
+          <div className="mx-auto mt-6 h-1 w-14 bg-[#D91E2E] rounded-full shadow-[0_0_16px_rgba(217,30,46,0.5)]"></div>
           <p className="text-gray-400 max-w-2xl mx-auto mt-6 text-lg font-light">
             New ways to file, earn, and accelerate your refund — all delivered with the luxury care Legendary Tax Service is known for.
           </p>
@@ -64,7 +65,7 @@ const LegendaryPromos: React.FC = () => {
               <ul className="space-y-4 text-sm text-gray-300 font-light">
                 {card.bullets.map((bullet) => (
                   <li key={bullet} className="flex gap-3 items-start">
-                    <span className="w-2 h-2 mt-2 rounded-full bg-[#D4AF37] shadow-[0_0_10px_rgba(212,175,55,0.5)]"></span>
+                    <span className="w-2 h-2 mt-2 rounded-full bg-[#D4AF37] shadow-[0_0_10px_rgba(212,175,55,0.5),0_0_12px_rgba(217,30,46,0.45)]"></span>
                     <span>{bullet}</span>
                   </li>
                 ))}

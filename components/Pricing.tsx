@@ -61,7 +61,7 @@ const Pricing: React.FC = () => {
               }`}
             >
               {tier.isPopular && (
-                <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-black text-[10px] font-black tracking-[0.3em] px-8 py-2 rounded-full uppercase shadow-xl">
+                <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#D4AF37] via-[#F2C94C] to-[#D91E2E] text-black text-[10px] font-black tracking-[0.3em] px-8 py-2 rounded-full uppercase shadow-xl">
                   Gold Favorite
                 </div>
               )}
