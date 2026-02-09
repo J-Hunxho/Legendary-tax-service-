@@ -24,9 +24,16 @@ const Footer: React.FC = () => {
             <p>legendarytaxservice.org</p>
           </div>
           <div className="flex gap-8">
-            {['LinkedIn', 'Twitter', 'Facebook'].map(platform => (
-              <a key={platform} href="#" className="text-[#D4AF37]/60 hover:text-[#D4AF37] text-[10px] font-black tracking-[0.3em] transition-all uppercase">
-                {platform}
+            {[
+              { label: 'Taxrpo', href: 'https://taxrpo.com/preparer/brandon-gipson-gadsden-al/' },
+              { label: 'Facebook', href: 'https://www.facebook.com/legendarytaxpro' },
+            ].map(platform => (
+              <a
+                key={platform.label}
+                href={platform.href}
+                className="text-[#D4AF37]/60 hover:text-[#D4AF37] text-[10px] font-black tracking-[0.3em] transition-all uppercase"
+              >
+                {platform.label}
               </a>
             ))}
           </div>
